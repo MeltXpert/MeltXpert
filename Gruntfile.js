@@ -79,3 +79,4 @@ var message     = "SEED™ — Supported under Mac OS X and Linux only!";
 // To use inside grunt task.
 var pkg         = require('./package.json');
 var bkg         = require('./bower.json');
+var version     = process.env.VERSION || require('./package.json').version;
