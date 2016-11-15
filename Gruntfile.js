@@ -64,3 +64,4 @@ var isTravis    = require('is-travis');
 var rootPath    = './';
 var appsPath    = './app/';
 var docsPath    = './docs/';
+var libsPath    = './libs/';
