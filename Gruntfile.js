@@ -74,3 +74,5 @@ var noop        = chalk.red;
 var yeep        = chalk.green;
 var okay        = chalk.blue;
 var boop        = chalk.gray;
+
+var message     = "SEED™ — Supported under Mac OS X and Linux only!";
