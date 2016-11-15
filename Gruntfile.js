@@ -65,3 +65,5 @@ var rootPath    = './';
 var appsPath    = './app/';
 var docsPath    = './docs/';
 var libsPath    = './libs/';
+// A destination directory.
+var buildPath   = './build/';
