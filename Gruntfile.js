@@ -35,3 +35,6 @@
 // "disallowSemicolons": false
 // "requireSemicolons": true
 // "requireSpaceAfterLineComment": { "allExcept": ["#", "="] }
+
+// global __dirname: true
+// global require: true
