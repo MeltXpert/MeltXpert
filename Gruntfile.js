@@ -56,3 +56,5 @@ var path        = require('path');
 // To load required NPM modules.
 //=-----------------------------
 var chalk       = require('chalk');
+// Check if our code is running on Travis.
+var isTravis    = require('is-travis');
