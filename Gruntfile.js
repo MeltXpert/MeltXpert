@@ -30,3 +30,5 @@
  * --/The Heart of Build System/-- of "MeltXpert®".
  * ________________________________________________________________________________
  */
+
+// "disallowMultipleSpaces": {"allowEOLComments": true}
