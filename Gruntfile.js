@@ -67,3 +67,10 @@ var docsPath    = './docs/';
 var libsPath    = './libs/';
 // A destination directory.
 var buildPath   = './build/';
+
+// Default color defined.
+//=----------------------
+var noop        = chalk.red;
+var yeep        = chalk.green;
+var okay        = chalk.blue;
+var boop        = chalk.gray;
