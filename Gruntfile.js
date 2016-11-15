@@ -62,3 +62,4 @@ var isTravis    = require('is-travis');
 // Global variables.
 //=~~~~~~~~~~~~~~~~~
 var rootPath    = './';
+var appsPath    = './app/';
