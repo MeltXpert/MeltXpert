@@ -92,3 +92,6 @@ var banner      =
     ' * Copyright © 2014 - ' + new Date().getFullYear() + ', Sequømics Corporation, All rights reserved.\n' +
     ' * Released under the Apache License (http://www.apache.org/licenses/).\n' +
     ' */';
+// ----------------------------------------------------------------------------------------------------------
+// All Grunt Operations Defined... |--------------------------------------------| 11/Nov/2016 | SEED™ — Umeå.
+// ----------------------------------------------------------------------------------------------------------
