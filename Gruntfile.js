@@ -58,3 +58,7 @@ var path        = require('path');
 var chalk       = require('chalk');
 // Check if our code is running on Travis.
 var isTravis    = require('is-travis');
+
+// Global variables.
+//=~~~~~~~~~~~~~~~~~
+var rootPath    = './';
