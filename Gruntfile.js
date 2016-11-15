@@ -52,3 +52,7 @@
 var fs          = require('fs');
 var os          = require('os');
 var path        = require('path');
+
+// To load required NPM modules.
+//=-----------------------------
+var chalk       = require('chalk');
