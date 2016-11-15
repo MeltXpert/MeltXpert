@@ -80,3 +80,15 @@ var message     = "SEED™ — Supported under Mac OS X and Linux only!";
 var pkg         = require('./package.json');
 var bkg         = require('./bower.json');
 var version     = process.env.VERSION || require('./package.json').version;
+
+// ----------------------------------------------------------------------------------------------------------
+var banner      =
+    '/*!\n' +
+    ' * ———————————\n' +
+    ' * MeltXpert®: v' + version + '\n' +
+    ' * ———————————\n' +
+    ' * Improved Nucleic Acid homo & hetero duplexes thermal behavior analysis program.\n' +
+    ' * Copyright © 2006 - ' + new Date().getFullYear() + ', Prabhat Kumar, All rights reserved.\n' +
+    ' * Copyright © 2014 - ' + new Date().getFullYear() + ', Sequømics Corporation, All rights reserved.\n' +
+    ' * Released under the Apache License (http://www.apache.org/licenses/).\n' +
+    ' */';
