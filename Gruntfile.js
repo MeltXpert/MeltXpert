@@ -172,3 +172,6 @@ module.exports = function(grunt) {
         
         /* To loads the AWS credentials from a JSON file (DO NOT forget to exclude it from the commits). */
         aws: grunt.file.readJSON('aws.json'),
+        
+        /* To get banner information. */
+        banner: banner,
