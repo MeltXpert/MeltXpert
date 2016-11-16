@@ -133,3 +133,7 @@ module.exports = function(grunt) {
     // To generate data of nucleic acid(s).
     // ./pub/data/raw/ ——> ./pub/data/gold/
     var generateData = require('./pub/data/datagenerator.js');
+    // A configuration bridge.
+    var configBridge = grunt.file.readJSON('./grunt/configBridge.json', {
+        encoding: 'utf8'
+    });
