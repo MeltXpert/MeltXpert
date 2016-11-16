@@ -162,3 +162,7 @@ module.exports = function(grunt) {
     
     // Grunt project configuration.
     grunt.initConfig({
+        
+        /* reading 'package.json' for sync package(s) updates, mainly. */
+        //= manipulation in build.py
+        pkg: grunt.file.readJSON('package.json'),
