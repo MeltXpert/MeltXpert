@@ -144,3 +144,7 @@ module.exports = function(grunt) {
             arr[i] = path.join('./docs/', val);
         });
     });
+    
+    // 1. time-grunt
+    // Display the elapsed execution time of grunt tasks.
+    require('time-grunt')(grunt);
