@@ -137,3 +137,10 @@ module.exports = function(grunt) {
     var configBridge = grunt.file.readJSON('./grunt/configBridge.json', {
         encoding: 'utf8'
     });
+    
+    // A configuration bridge function.
+    Object.keys(configBridge.paths).forEach(function(key) {
+        configBridge.paths[key].forEach(function(val, i, arr) {
+            arr[i] = path.join('./docs/', val);
+        });
+    });
