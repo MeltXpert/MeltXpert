@@ -129,3 +129,7 @@ module.exports = function(grunt) {
     ]);
     // To write process log(s).
     var contents = null;
+    
+    // To generate data of nucleic acid(s).
+    // ./pub/data/raw/ ——> ./pub/data/gold/
+    var generateData = require('./pub/data/datagenerator.js');
