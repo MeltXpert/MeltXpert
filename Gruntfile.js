@@ -169,3 +169,6 @@ module.exports = function(grunt) {
         
         /* Do not store credentials in the git repo, store them separately and read from a secret file. */
         secret: grunt.file.readJSON('secret.json'),
+        
+        /* To loads the AWS credentials from a JSON file (DO NOT forget to exclude it from the commits). */
+        aws: grunt.file.readJSON('aws.json'),
