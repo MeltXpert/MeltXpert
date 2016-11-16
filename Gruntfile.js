@@ -159,3 +159,6 @@ module.exports = function(grunt) {
     // Project configuration for -//MeltXpert®//- |-----------------------------| 11/Nov/2016 | SEED™ — Umeå.
     //                  Copyright © 2014 - 2016, Sequømics Corporation, All rights reserved.
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    // Grunt project configuration.
+    grunt.initConfig({
