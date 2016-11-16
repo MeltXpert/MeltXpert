@@ -154,3 +154,8 @@ module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt, {
         scope: ['devDependencies', 'dependencies']
     });
+    
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    // Project configuration for -//MeltXpert®//- |-----------------------------| 11/Nov/2016 | SEED™ — Umeå.
+    //                  Copyright © 2014 - 2016, Sequømics Corporation, All rights reserved.
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
