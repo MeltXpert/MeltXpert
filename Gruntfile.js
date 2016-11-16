@@ -166,3 +166,6 @@ module.exports = function(grunt) {
         /* reading 'package.json' for sync package(s) updates, mainly. */
         //= manipulation in build.py
         pkg: grunt.file.readJSON('package.json'),
+        
+        /* Do not store credentials in the git repo, store them separately and read from a secret file. */
+        secret: grunt.file.readJSON('secret.json'),
