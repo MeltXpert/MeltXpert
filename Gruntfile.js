@@ -127,3 +127,5 @@ module.exports = function(grunt) {
         __dirname + '/core/source/script/' + pattern,
         __dirname + '/core/source/engine/' + pattern
     ]);
+    // To write process log(s).
+    var contents = null;
