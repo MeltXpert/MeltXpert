@@ -109,3 +109,7 @@ module.exports = function(grunt) {
     // Date objects.
     var today    = new Date();
     var timems   = Date.now();
+    
+    // Advanced Grunt API.
+    /// -->> A mode defaults to `0777`.
+    var mode     = '0777';
