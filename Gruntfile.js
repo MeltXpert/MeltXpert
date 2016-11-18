@@ -326,3 +326,10 @@ module.exports = function(grunt) {
                 src: ['./core/source/scss/**/*.scss', '!./core/source/scss/**/_normalize.scss']
             }
         },
+        // ---------------------------------------------
+        /// 5. Linting + Minification (CSS + JavaScript)
+        // ---------------------------------------------
+        /// 5. CSS --> 5.1 Lint
+        /// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        // To update '.csslintrc' list, run this:
+        // node -e "require('csslint').CSSLint.getRules().forEach(function(x) { console.log(x.id) })".
