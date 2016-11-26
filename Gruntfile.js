@@ -333,3 +333,20 @@ module.exports = function(grunt) {
         /// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         // To update '.csslintrc' list, run this:
         // node -e "require('csslint').CSSLint.getRules().forEach(function(x) { console.log(x.id) })".
+        csslint: {
+            options: {
+                csslintrc: './config/rule/.csslintrc'
+            },
+            strict: {
+                options: {
+                    import: 2
+                },
+                src: ['./core/source/style/**/*.css']
+            },
+            lax: {
+                options: {
+                    import: false
+                },
+                src: ['./app/en/assets/style/**/*.css']
+            }
+        },
