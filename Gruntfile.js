@@ -249,7 +249,7 @@ module.exports = function(grunt) {
         /// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         htmlhint: {
             options: {
-                htmlhintrc: './config/rules/.htmlhintrc'
+                htmlhintrc: './config/rule/.htmlhintrc'
             },
             html1: {
                 options: {
@@ -283,7 +283,7 @@ module.exports = function(grunt) {
                 cwd: '.',
                 dest: buildPath,
                 src: [
-                    /// for all files in `app` directory.
+                    /// for all files in `app` and `docs` directory.
                     './app/**/*.html',
                     './docs/**/*.html'
                 ]
