@@ -184,7 +184,7 @@ module.exports = function(grunt) {
         // -‡-----------------------------------------------------------------------‡-|
         // 3. Assembly of Documentation + Application                                 |
         // 4. Build of Sass using Compass and Lint                                    |
-        // 5. Linting + Minification (HTML + CSS + JavaScript)                        |
+        // 5. Linting + Minification (CSS + JavaScript)                               |
         // 6. Concatenation (CSS + JavaScript)                                        |
         // 7. Data Build + Lint                                                       |
         // 8. Cleaning of temporary files or directories                              |
